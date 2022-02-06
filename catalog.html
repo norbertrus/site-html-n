@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>catalog</title>
+        <link rel="stylesheet" href="./style/app.css">
+        <script src="./js/app.js"></script>
+
+        <!-- aplicam acelasi stil de la hover elementului a carui atribut "href" incepe cu ...-->
+        <style>
+            .nav-menu .nav-link[href^="catalog"]{
+                transition: all 0.3s ease-in-out;
+                letter-spacing: 2px;
+                color: rgb(206, 0, 0)
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Meniu navigatie -->
+            <nav>
+                <ul class="nav-menu">
+                    <li>
+                        <a class="nav-link" href="acasa.html">acasa</a> 
+                    </li>
+                    <li>
+                       <a class="nav-link" href="catalog.html">catalog</a> 
+                    </li>
+                    <li>
+                        <a class="nav-link" href="contact.html">contact</a> 
+                    </li>
+                   </ul>
+                <span id="mode-toggle"></span>
+            </nav>
+        <!-- Meniu navigatie --> 
+    </body>
+</html>
